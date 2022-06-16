@@ -1,0 +1,21 @@
+$c1:#2b222c;
+$c2:#5e4352;
+$c3:#965d62;
+$c4:#c7956d;
+$c5:#f2d974;
+
+$d1:#62e6d8;
+$d1:#a2de66;
+$d1:#d6c73b;
+$d1:#e83030;
+
+@mixin meio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+.questao {
+    @inclide meio;
+}
